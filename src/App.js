@@ -3,8 +3,12 @@ import { Trends } from './components';
 function App() {
   return (
     <div className="container">
-      <h1>Ishni boshla !!!!</h1>
-      <Trends/>
+      <div className='ultra-content'>
+        <div><h1>Jonibek chap tomondegini shu divni ichiga sol</h1></div>
+        <div>
+          <Trends/>
+        </div>
+      </div>
     </div>
   );
 };

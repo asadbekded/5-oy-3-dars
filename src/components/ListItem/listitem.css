@@ -1,0 +1,16 @@
+.dashboard__side__item {
+  padding: 20px 0;
+}
+
+.dashboard__side__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: #a4a6b3;
+  /* font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #dde2ff; */
+}

@@ -1,0 +1,32 @@
+.dashboard__side__top {
+  padding-bottom: 16px;
+  border-bottom: 1px solid #dfe0eb;
+}
+.dashboard__side__bottom {
+  padding-top: 16px;
+}
+
+.dashboard__logo {
+  display: block;
+  margin-bottom: 60px;
+}
+
+.dashboard__side__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.check {
+  margin-bottom: 30px;
+}
+
+.check__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}

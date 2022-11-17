@@ -1,19 +1,47 @@
 import './assets/styles/index.css';
-import { Trends, Ticket, Task } from './components';
+import { Trends, Ticket, Task, Dashboard, Header, CheckItem } from './components';
 function App() {
+  const checks = [
+    {
+      text: "Unresolved",
+      number: 60,
+    },
+    {
+      text: "Overdue",
+      number: 16,
+    },
+    {
+      text: "Open",
+      number: 43,
+    },
+    {
+      text: "On hold",
+      number: 64,
+    },
+  ]
+
   return (
-    <div className="container">
-      <div className='ultra-content'>
-        <div><h1>Jonibek chap tomondegini shu divni ichiga sol</h1></div>
-        <div>
-          <Trends/>
-          <div className='details-content'>
-            <Ticket/>
-            <Task/>
-          </div>
+    <div className='ultra-content'>
+      <div className='dashboard__side'>
+        <Dashboard />
+      </div>
+      <div className='dashboard__right'>
+        <Header />
+        <div className='check'>
+          <ul className='check__list'>
+            {checks.map(el => (
+              <CheckItem text={el.text} num={el.number} checks={el} />
+            ))}
+          </ul>
+        </div>
+        <Trends />
+        <div className='details-content'>
+          <Ticket />
+          <Task />
         </div>
       </div>
     </div>
+
   );
 };
 

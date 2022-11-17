@@ -1,0 +1,78 @@
+.ticket-content{
+   width: 100%;
+   max-width: 546px;
+   background-color: #FFFFFF;
+   border: 1px solid #DFE0EB;
+   border-radius: 8px;
+}
+.header-ticket{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 32px;
+}
+.ticket-text{
+   margin: 0px;
+   font-weight: 400;
+   font-size: 12px;
+   line-height: 16px;
+   letter-spacing: 0.1px;
+   color: #333;
+}
+.ticket-title{
+   margin: 0px;
+   font-weight: 700;
+   font-size: 19px;
+   line-height: 24px;
+   letter-spacing: 0.4px;
+   color: #252733;
+   margin-bottom: 8px;
+}
+.ticket-spn{
+   margin: 0px;
+   font-weight: 400;
+   font-size: 12px;
+   line-height: 16px;
+   letter-spacing: 0.1px;
+   color: #9FA2B4;
+}
+.viev-text{
+   margin: 0px;
+   font-weight: 600;
+   font-size: 14px;
+   line-height: 20px;
+   text-align: right;
+   letter-spacing: 0.2px;
+   color: #3751FF;
+}
+.ticket-list{
+   margin: 0px;
+   padding: 0px;
+   list-style: none;
+}
+.ticket-item{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 20px 33px 20px;
+}
+.ticket-item + .ticket-item {
+   border-top: 1px solid #DFE0EB;
+}
+.pen-title{
+   margin: 0px;
+   font-weight: 600;
+   font-size: 14px;
+   line-height: 20px;
+   letter-spacing: 0.2px;
+   color: #252733;
+}
+.pen-str{
+   margin: 0px;
+   font-weight: 600;
+   font-size: 14px;
+   line-height: 20px;
+   text-align: right;
+   letter-spacing: 0.2px;
+   color: #9FA2B4;
+}

@@ -1,5 +1,5 @@
 import './assets/styles/index.css';
-import { Trends } from './components';
+import { Trends, Ticket, Task } from './components';
 function App() {
   return (
     <div className="container">
@@ -7,6 +7,10 @@ function App() {
         <div><h1>Jonibek chap tomondegini shu divni ichiga sol</h1></div>
         <div>
           <Trends/>
+          <div className='details-content'>
+            <Ticket/>
+            <Task/>
+          </div>
         </div>
       </div>
     </div>

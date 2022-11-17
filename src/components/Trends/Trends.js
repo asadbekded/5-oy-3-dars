@@ -31,7 +31,7 @@ export const Trends = () => {
    ]
 
    return(
-     <div className='container'>
+   //   <div className='container'>
        <div className='trends-content'>
          <div className='today-box'>
             <h4 className='today-title'>Today's trends</h4>
@@ -56,6 +56,6 @@ export const Trends = () => {
             </ul>
          </div>
        </div>
-     </div>
+   //   </div>
    )
 };

@@ -22,8 +22,10 @@ function App() {
 
   return (
     <div className='ultra-content'>
+      <div className='fix-content'>
       <div className='dashboard__side'>
         <Dashboard />
+      </div>
       </div>
       <div className='dashboard__right'>
         <Header />

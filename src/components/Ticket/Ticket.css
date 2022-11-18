@@ -5,6 +5,9 @@
    border: 1px solid #DFE0EB;
    border-radius: 8px;
 }
+.ticket-content + .ticket-content{
+   margin-left: 30px;
+}
 .header-ticket{
    display: flex;
    align-items: center;

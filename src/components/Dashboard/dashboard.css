@@ -9,6 +9,7 @@
 .dashboard__logo {
   display: block;
   margin-bottom: 60px;
+  padding-left: 37px;
 }
 
 .dashboard__side__list {

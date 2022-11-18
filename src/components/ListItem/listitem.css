@@ -1,5 +1,11 @@
-.dashboard__side__item {
+.dashboard__sideitem {
   padding: 20px 0;
+  padding-left: 37px;
+  padding-right: 43px;
+}
+.dashboard__side__link{
+  display: flex;
+  align-items: center;
 }
 
 .dashboard__side__text {
@@ -7,10 +13,13 @@
   font-size: 16px;
   line-height: 20px;
   letter-spacing: 0.2px;
-  color: #a4a6b3;
-  /* font-weight: 400;
-    font-size: 16px;
-    line-height: 20px;
-    letter-spacing: 0.2px;
-    color: #dde2ff; */
+  color: #b4b6c1;
+}
+.dashboard__sideitem:hover{
+  border-left: 3px solid #DDE2FF;
+  background-color: #9fa2b497;
+  color: #fff;
+}
+.dash_icon{
+  margin-right: 24px;
 }

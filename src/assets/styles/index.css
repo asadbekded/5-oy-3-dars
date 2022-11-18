@@ -416,10 +416,12 @@ main {
   margin: 0px auto;
   padding: 0px 20px;
 }
+
 .details-content {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
+  padding-bottom: 20px;
 }
 
 .ultra-content {
@@ -427,11 +429,18 @@ main {
   gap: 30px;
   background-color: #f7f8fc;
 }
+.fix-content{
+  width: 100%;
+  max-width: 255px;
+  height: 100vh;
+}
 
 .dashboard__side {
-  max-width: 255px;
+  position: fixed;
   width: 100%;
-  padding: 32px 43px 0px 37px;
+  max-width: 255px;
+  height: 100vh;
+  padding: 32px 0px 0px 0px;
   background-color: #363740;
 }
 

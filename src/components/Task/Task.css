@@ -5,10 +5,8 @@
    margin-right: 16px;
 }
 .task-but{
-   padding: 5px 12px;
-   background-color: #FEC400;
-   border-radius: 8px;
    border: none;
+   background-color: transparent;
    font-weight: 700;
    font-size: 15px;
    line-height: 14px;
@@ -21,15 +19,19 @@
    padding: 20px 33px 20px;
    border-top: 1px solid #DFE0EB;
 }
-.form-title{
+.form-inp{
+   width: 100%;
+   max-width: 380px;
    margin: 0px;
-   margin-top: 12px;
-   margin-bottom: 18px;
+   margin-top: 8px;
+   margin-bottom: 14px;
    font-weight: 600;
    font-size: 14px;
    line-height: 20px;
    letter-spacing: 0.2px;
    color: #C5C7CD;
+   padding: 4px 0px 4px 5px;
+   border: none;
 }
 .form-box{
    display: flex;

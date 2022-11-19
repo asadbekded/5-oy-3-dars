@@ -1,4 +1,5 @@
 import './Trends.css';
+import ApexChart from './Diagrama/Diagrama';
 
 export const Trends = () => {
 
@@ -42,6 +43,7 @@ export const Trends = () => {
                   <span className='today-wed'>Yesterday</span>
                </div>
             </div>
+            <ApexChart/>
          </div>
          <div className='resolve-box'>
             <ul className='resolve-list'>

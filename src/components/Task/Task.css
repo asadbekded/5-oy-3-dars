@@ -32,6 +32,7 @@
    color: #C5C7CD;
    padding: 4px 0px 4px 5px;
    border: none;
+   outline: none;
 }
 .form-box{
    display: flex;
